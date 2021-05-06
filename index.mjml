@@ -1,0 +1,149 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-all font-size="18px" />
+
+            <mj-class name="strong" font-weight="bold" />
+            <mj-class name="big" font-size="24px" />
+            <mj-class name="small" font-size="12px" />
+
+            <!--palheta de cores-->
+            <mj-class name="black-coral" color="#495867" />
+            <mj-class name="green-yellow" color="#DDE392" />
+            <mj-class name="candy-pink" color="#F7717D" />
+            <mj-class name="blue-green" color="#08BDBD" />
+            <mj-class name="magnolia" color="#F8F0FB" />
+
+            <!--palheta de cores background color-->
+            <mj-class name="bg-black-coral" background-color="#495867" />
+            <mj-class name="bg-green-yellow" background-color="#DDE392" />
+            <mj-class name="bg-candy-pink" background-color="#F7717D" />
+            <mj-class name="bg-blue-green" background-color="#08BDBD" />
+            <mj-class name="bg-magnolia" background-color="#F8F0FB" />
+
+        </mj-attributes>
+
+        <mj-style>
+            .intro-text a{
+                color:#08BDBD;
+            }
+             .intro-text a:last-child{
+                color:#DDE392;
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body mj-class="bg-black-coral">
+<!--header-->
+        <mj-section padding="0px" mj-class="bg-candy-pink">
+            <!--logo-header-->
+            <mj-column>
+                <mj-text mj-class="magnolia strong big"
+                                    padding="20px"
+                                    align="center">
+                Sua marca aqui
+                </mj-text>
+            </mj-column>
+            <!--botao-header-->
+            <mj-column>
+                <mj-button href="#" target="_blank" mj-class="bg-magnolia blue-green">
+                    Acesse sua conta
+                </mj-button>
+            </mj-column>
+        </mj-section>
+<!--introdução-->
+        <mj-wrapper>
+    <!--h1--><mj-section>
+                <mj-column>
+                    <mj-text mj-class="big magnolia" align="center">
+                        Compartilhe sua experiência conosco!
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+    <!--paragrafo e imagem-->
+            <mj-section>
+                <mj-column css-class="intro-text">
+                    <mj-text mj-class="magnolia">
+                        Oi. Tudo bem?
+                    </mj-text>
+
+                    <mj-text mj-class="magnolia">
+                        Como você utiliza nossa <a>plataforma de automação de 
+                        marketing</a>, decidimos entrar em contato para saber mais 
+                        sobre sua <a> experiência </a> com ela.
+                    </mj-text>
+
+                     <mj-text mj-class="magnolia">
+                        Para nós da <a> [MARCA]</a>, é mutio importante saber se estamos 
+                        conseguindo contribuir para<a> manter sua comunicação da melhor
+                        forma possível.</a>
+                    </mj-text>
+                </mj-column>
+                
+                <mj-column>
+                    <mj-image src="img/laptop-man.svg" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+<!--feedback-section--> <mj-divider border-width="1px" width="400px" border-color="#F8F0FB" />
+        <mj-wrapper>
+            <mj-section>
+                <mj-column>
+                    <mj-text align="center" mj-class="magnolia">
+                        Para compartilhar sua percepção sobre nossa 
+                        plataforma, <a style="color:#F7717D;">dê uma nota de acordo com o seu nível de satisfação:</a>
+                    </mj-text>
+                </mj-column>    
+            </mj-section>
+<!--botoes de feddback-->
+            <mj-section>
+                <mj-column padding="0px" >
+                    <mj-button href="#" target="_blank" padding="10px" width="400px">
+                        Péssimo.
+                    </mj-button>
+                    <mj-button href="#" target="_blank" mj-class="bg-candy-pink" padding="10px" width="400px">
+                        Ruim
+                    </mj-button>
+                    <mj-button href="#" target="_blank" mj-class="bg-green-yellow" padding="10px" width="400px">
+                        Bom
+                    </mj-button>
+                    <mj-button href="#" target="_blank" mj-class="bg-blue-green" padding="10px" width="400px">
+                        Amei!
+                    </mj-button>
+                    
+                </mj-column>
+   
+            </mj-section>
+
+        </mj-wrapper>
+
+<!--footer--><mj-divider border-width="1px" width="400px" border-color="#F8F0FB" />
+    <mj-section>
+        <mj-column >
+            <mj-text mj-class="magnolia strong big"
+                                    padding="20px"
+                                    align="center">
+                Sua marca aqui
+                </mj-text>
+
+            <mj-text mj-class="magnolia small" align="center">
+                Siga-nos em nossas redes sociais!
+            </mj-text>
+
+            <mj-social icon-size="20px" >
+                <mj-social-element padding="20px" src="img/"></mj-social-element>
+                <mj-social-element padding="20px" src="img/"></mj-social-element>
+                <mj-social-element padding="20px" src="img/"></mj-social-element>
+                <mj-social-element padding="20px" src="img/"></mj-social-element>
+            </mj-social>
+
+            <mj-text mj-class="magnolia small" align="center">
+                Você está recebendo este e-mail pois é um usuário 
+                de nossa plataforma [SUA MARCA]. Caso queira não receber
+                mais conteúdos sobre nosso sistema, clique em descartar
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    </mj-body>
+</mjml>
