@@ -30,6 +30,13 @@
              .intro-text a:last-child{
                 color:#DDE392;
             }
+
+            @media (max-width: 360px){
+                .intro-text td div{
+                    font-size:16px!important;
+                    text-align:justify!important;
+                }
+            }
         </mj-style>
     </mj-head>
 
@@ -85,7 +92,7 @@
                 </mj-column>
             </mj-section>
         </mj-wrapper>
-<!--feedback-section--> <mj-divider border-width="1px" width="400px" border-color="#F8F0FB" />
+<!--feedback-section--> <mj-divider border-width="1px" width="90%" border-color="#F8F0FB" />
         <mj-wrapper>
             <mj-section>
                 <mj-column>
@@ -97,17 +104,17 @@
             </mj-section>
 <!--botoes de feddback-->
             <mj-section>
-                <mj-column padding="0px" >
-                    <mj-button href="#" target="_blank" padding="10px" width="400px">
+                <mj-column padding="0px" css-class="css-feedback-column" >
+                    <mj-button href="#" target="_blank" padding="10px" width="80%">
                         Péssimo.
                     </mj-button>
-                    <mj-button href="#" target="_blank" mj-class="bg-candy-pink" padding="10px" width="400px">
+                    <mj-button href="#" target="_blank" mj-class="bg-candy-pink" padding="10px" width="80%">
                         Ruim
                     </mj-button>
-                    <mj-button href="#" target="_blank" mj-class="bg-green-yellow" padding="10px" width="400px">
+                    <mj-button href="#" target="_blank" mj-class="bg-green-yellow" padding="10px" width="80%">
                         Bom
                     </mj-button>
-                    <mj-button href="#" target="_blank" mj-class="bg-blue-green" padding="10px" width="400px">
+                    <mj-button href="#" target="_blank" mj-class="bg-blue-green" padding="10px" width="80%">
                         Amei!
                     </mj-button>
                     
@@ -117,9 +124,9 @@
 
         </mj-wrapper>
 
-<!--footer--><mj-divider border-width="1px" width="400px" border-color="#F8F0FB" />
+<!--footer--><mj-divider border-width="1px" width="90%" border-color="#F8F0FB" />
     <mj-section>
-        <mj-column >
+        <mj-column css-class="css-footer">
             <mj-text mj-class="magnolia strong big"
                                     padding="20px"
                                     align="center">
@@ -130,11 +137,11 @@
                 Siga-nos em nossas redes sociais!
             </mj-text>
 
-            <mj-social icon-size="20px" >
-                <mj-social-element padding="20px" src="img/"></mj-social-element>
-                <mj-social-element padding="20px" src="img/"></mj-social-element>
-                <mj-social-element padding="20px" src="img/"></mj-social-element>
-                <mj-social-element padding="20px" src="img/"></mj-social-element>
+            <mj-social icon-size="30px" >
+                <mj-social-element padding="10px" src="img/discord.svg"></mj-social-element>
+                <mj-social-element padding="10px" src="img/twitter.svg"></mj-social-element>
+                <mj-social-element padding="10px" src="img/github.svg"></mj-social-element>
+                <mj-social-element padding="10px" src="img/linkedin.svg"></mj-social-element>
             </mj-social>
 
             <mj-text mj-class="magnolia small" align="center">
